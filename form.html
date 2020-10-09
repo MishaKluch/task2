@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-        </nav>
-        <h1>Fill out the form</h1>    
-    </header>
-    <main>
-      <p>
-      What car do you select:
-      </p>
-         <form action="https://formspree.io/f/xbjpdppo" method="POST">
 
-            <label>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="index.html">Home</a>
+		</nav>
+		<h1>Fill out the form</h1>
+	</header>
+	<main>
+		<p>
+			What car do you select:
+		</p>
+		<form action="https://formspree.io/f/xbjpdppo" method="POST">
+
+			<label>
                 <input type="radio" name="vechicle" value="BMW">M3
             </label>
-            <label>
+			<label>
                 <input type="radio" name="vechicle" value="BMW">M4
             </label>
-            <br>
-            <p>Fill in:</p>
-            <br>
-            <label>
+			<br>
+			<p>Fill in:</p>
+			<br>
+			<label>
                 First and Last name:
                 <input type="text" placeholder="Name" name="name" required>
             </label>
-            <br>
-            <label>
+			<br>
+			<label>
                 Phone:
                 <input type="number" placeholder="Number" name="phone" required>
             </label>
-            <br>
-            <label>
+			<br>
+			<label>
                 e-mail:
                 <input type="email" placeholder="e-mail" name="email" required>
-            </label> 
-            <br> 
+            </label>
+			<br>
             Gender:
-            <label>
+			<label>
                 <input type="radio" name="gender" value="gender">Male
             </label>
-            <label>
+			<label>
                 <input type="radio" name="gender" value="gender">Female
             </label>
-            <label>
+			<label>
                 <input type="radio" name="gender" value="gender">another
             </label>
-            <br>  
-            <label>
+			<br>
+			<label>
                 <input type="submit" name="submit" value="send">
-            </label>                
-        
-  
-         </form>
-    </main>
-</body>    
+            </label>
 
+
+		</form>
+	</main>
+</body>
